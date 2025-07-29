@@ -1,0 +1,25 @@
+.layout {
+  width: 100%;
+
+  display: grid;
+  grid:
+    "sidebar body" 1fr
+    / auto 1fr;
+  gap: 1px;
+  border: 1px solid red;
+
+}
+
+.sidebar {
+   grid-area: sidebar; 
+  border: 1px solid blue;
+  width: 10vh;
+}
+.body { grid-area: body; 
+  border: 1px solid red;
+  /* width:70%; */
+  height: 100vh;
+  background:linear-gradient(rgba(128, 0, 96, 0.199),rgba(255, 192, 203, 0.719)),url("./images/honeyFace.jpeg")  no-repeat;
+  background-position:center;
+  background-size: cover;
+}

@@ -1,0 +1,112 @@
+/* src/pages/Landing.css */
+
+.landing-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  
+}
+
+.hero-section {
+  text-align: center;
+  padding: 8rem 4rem;
+  background: url("images/applying_serum.jpg") no-repeat; 
+  background-size: cover;
+  background-position: center;
+  min-height: 90vh;
+  backface-visibility: visible;
+  animation: fadein 25s linear infinite;
+}
+@keyframes fadein {
+  0%{
+    background: url("images/heroSec.jpeg"); 
+    background-size: 100% 100%;
+    background-position: center;
+  }
+  25%{
+    background-size: 100% 100%;
+    background-position: center;
+    background: url("images/cosmetics_smile_face.jpeg"); 
+  }
+  50%{
+    background: url("images/facial_check.jpeg"); 
+    background-size:100% 100%;
+    background-position: center;
+  }
+  100%{
+    background: url("images/cosmetics_smile_face.jpeg"); 
+    background-size: cover;
+    background-position: center;
+  }
+  200%{
+    background: url("images/applying_serum.jpg"); 
+    background-size: cover;
+    background-position: center;
+  }
+}
+
+.hero-section h1 {
+  font-size: 5rem;
+  margin-bottom: 20px;
+  color: #ff537e;
+  text-shadow: 0.2rem 0.3rem 0.5rem #180101;
+}
+
+.hero-section p {
+  font-size: 2.2rem;
+  color: #494848;
+  text-shadow: 0.1rem 0.1rem 0.2rem #130006;
+}
+.filter{
+  backdrop-filter: blur(.2rem);
+  box-shadow:1px 1px 5px #2b0007,
+              1px 1px 5px #2b00070e;
+              border-radius: 0.9rem;
+  padding: 5.94rem;
+}
+
+.products-grid {
+  padding: 40px 20px;
+  display: grid;
+  gap: 24px;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+@media screen and (max-width: 768px){
+  .filter{ backdrop-filter: blur(.2rem);
+  box-shadow:1px 1px 5px #2b0007,
+              1px 1px 5px #2b00070e;
+              border-radius: 0.9rem;
+  padding: .4rem;
+}}
+@media screen and (max-width: 425px){
+  .filter{ backdrop-filter: blur(.2rem);
+  padding: .01rem;
+}
+.hero-section h1{
+  font-size: 2.8rem;
+}
+.hero-section p {
+  font-size: 1.5rem;
+  color: rgb(22, 0, 0);
+}
+}
+@media screen and (max-width: 425px){
+  .filter{ backdrop-filter: blur(.2rem);
+  padding: .01rem;
+}
+.hero-section h1{
+  font-size: 2.5rem;
+}
+.hero-section p {
+  font-size: 1.3rem;
+  color: rgb(22, 0, 0);
+}
+ .hero-section {
+  padding: 8rem 1rem;
+  background: url("images/applying_serum.jpg") no-repeat; /* soft pink */
+  background-size: cover;
+  background-position: center;
+  min-height: 90vh;
+  backface-visibility: visible;
+}
+}
