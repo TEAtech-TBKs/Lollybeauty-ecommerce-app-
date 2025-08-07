@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -5,11 +9,16 @@
 }
 :root {
   --primary-color: #80344b;
+  --nv-background: #803434;
   --secondary-color:#eecae0;
-  --tetiary-color: #ffffff;
-    --text-color: #ffeef9;
-  --background-color: #f9f9f9;
+  --tetiary-color: #5e00140e;
+  --text-color: #ffeef9;
+  --bold-text-color: rgb(151, 2, 2);
+  --dark-text-color: rgb(39, 35, 35);
+  --background-color: #fff2f2;
+  --filter-color: pink;
   --font-size-base: 16px;
+  --mn-filter-color: rgba(232, 114, 255, 0.288);
   
 }
 

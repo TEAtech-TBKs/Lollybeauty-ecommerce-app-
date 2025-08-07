@@ -1,0 +1,52 @@
+
+.about-body{
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    padding: 5rem;
+    gap: 2rem;
+    display: flex;
+    opacity: 0;
+  transform: translateY(20px);
+  animation: fadeUp 1.2s ease forwards;
+}
+@keyframes fadeUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.about-img{
+ width: 50%;
+ border-radius: .3125rem;
+}
+
+.about-heading h1{
+    font-family: "Cinzel Decorative", serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 2.5rem;
+    padding-left: calc(50% - 25%);
+    animation:shadow 2s infinite ;
+}
+@keyframes shadow {
+ from{
+        text-shadow: .0625rem .0625rem .625rem rgb(245, 224, 250);
+    }
+    to{
+        text-shadow: .0625rem .0625rem .0625rem rgb(255, 175, 225);
+    }
+}
+.bold{
+    font-weight: 600;
+    /* font-size: 1.01rem; */
+    color: var(--bold-text-color);
+}
+.about-content{
+  font-family: "Source Sans 3", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.2rem;
+  padding-top: 1rem;
+}

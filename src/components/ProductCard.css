@@ -19,29 +19,45 @@
   border-radius: 6px;
 }
 
-.product-card h3 {
+.product-name {
   font-size: 1.1rem;
   font-weight: 600;
   margin-top: 10px;
 }
+.product-description {
+  color:var(--dark-text-color);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 400;
+}
+.see-more{
+  font-family:Arial, Helvetica, sans-serif;
+  font-weight: 650;
+  font-size: .901rem;
+  color: rgb(37, 37, 37);
+}
 
 .product-card p {
-  margin-top: 6px;
   font-size: 0.9rem;
-  color: #666;
+}
+.product-category{
+  margin-top: .3125rem;
 }
 
 .product-price {
   color: #d63384;
   font-weight: bold;
-  margin-top: 5px;
+  margin-top: 6px;
 }
 
 .add-to-cart-btn {
   margin-top: 12px;
+  font-family:  "Source Sans 3", sans-serif;
+  font-weight: 500;
+  word-spacing: .1rem;
+  letter-spacing: .02rem;
   width: 100%;
   padding: 10px;
-  background-color: #d63384;
+  background-color: var(--primary-color);
   color: white;
   border: none;
   border-radius: 6px;

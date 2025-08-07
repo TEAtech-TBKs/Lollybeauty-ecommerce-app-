@@ -1,0 +1,85 @@
+.offer-body{
+background: var(--secondary-color);
+padding: 2.5rem;
+justify-items: center;
+}
+.offer-heading{
+    font-family: "cinzel decorative",serif;
+    font-size: 3rem;
+    font-weight: 600;
+    color: var(--primary-color);
+}
+.img-container{
+display: flex;
+flex-direction: row;
+gap: 5rem;
+padding: 2.3rem;
+}
+.offer-text {
+  position: relative;
+  top: calc(76% - 31%);
+  background-color: rgba(0, 0, 0, 0.301);
+  color: white;
+  height: 55%;
+  text-shadow: 0.1rem 0.1rem 0.1rem black;
+  text-align: center;
+  opacity: 0;
+  transform: translateY(50px);
+  animation: slideUp 1s ease-out forwards;
+}
+.offer-text h3{
+  font-size: 2.5rem;
+  font-weight: 700;
+  font-family: "cinzel decorative",sans-serif;
+}
+
+.offer-text p{
+    font-family: "source sans 3",serif;
+    color: var(--text-color);
+    padding:0 3rem;
+}
+/* Optional: stagger animation delay if you want cascading effect */
+.offer-img1 .offer-text {
+  animation-delay: 0.2s;
+}
+.offer-img2 .offer-text {
+  animation-delay: 0.4s;
+}
+.offer-img3 .offer-text {
+  animation-delay: 0.5s;
+}
+
+@keyframes slideUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.offer-img1{
+background: url("../assets/images/applying_serum.jpg");
+background-size: cover;
+background-position: center;
+width:  20rem;
+height: 20.5em;
+border-radius: 50%;
+overflow: hidden;
+}
+.offer-img2{
+    background: url("../assets/images/cosmetics_smile_face.jpeg");
+    background-size: cover;
+    background-position: center;
+    width: 20rem;
+    height: 20.5rem;
+    border-radius: 62.4375rem;
+    overflow: hidden;
+}
+.offer-img3{
+    background: url("../assets/images/honeyFace.jpeg");
+    background-size: cover;
+    background-position: center;
+    width: 20rem;
+    height: 20.5rem;
+    overflow: hidden;
+    border-radius: 625rem;
+    }

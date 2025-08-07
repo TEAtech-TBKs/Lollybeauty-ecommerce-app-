@@ -8,29 +8,27 @@
 }
 
 .hero-section {
-  text-align: center;
-  padding: 8rem 4rem;
   background: url("images/applying_serum.jpg") no-repeat; 
   background-size: cover;
   background-position: center;
-  min-height: 90vh;
   backface-visibility: visible;
   animation: fadein 25s linear infinite;
+  height: 100vh;
 }
 @keyframes fadein {
   0%{
     background: url("images/heroSec.jpeg"); 
-    background-size: 100% 100%;
+    background-size: cover;
     background-position: center;
   }
   25%{
-    background-size: 100% 100%;
+    background-size: cover;
     background-position: center;
     background: url("images/cosmetics_smile_face.jpeg"); 
   }
   50%{
     background: url("images/facial_check.jpeg"); 
-    background-size:100% 100%;
+    background-size:cover;
     background-position: center;
   }
   100%{
@@ -46,26 +44,38 @@
 }
 
 .hero-section h1 {
-  font-size: 5rem;
+  font-size: 3rem;
+
   margin-bottom: 20px;
-  color: #ff537e;
-  text-shadow: 0.2rem 0.3rem 0.5rem #180101;
+  color:var(--bold-text-color);
+  text-shadow: 0.01rem 0.02rem 0.1rem #180101;
 }
 
 .hero-section p {
-  font-size: 2.2rem;
-  color: #494848;
-  text-shadow: 0.1rem 0.1rem 0.2rem #130006;
+  font-size: 1.5rem;
+  color: #292828;
+  font-weight: 400;
+}
+.hero-btn{
+  margin: 2rem 0;
+  padding: .5rem 2rem;
+  border-radius: .3125rem;
+  border: none;
+  color: white;
+  font-weight: 500;
+  background-color: var(--bold-text-color);
+}
+.cta-wrapper{
+  width: 50%;
 }
 .filter{
-  backdrop-filter: blur(.2rem);
-  box-shadow:1px 1px 5px #2b0007,
-              1px 1px 5px #2b00070e;
-              border-radius: 0.9rem;
+  background: var(--mn-filter-color);
   padding: 5.94rem;
+  height: 100vh;
 }
 
 .products-grid {
+  background-color: var(--tetiary-color);
   padding: 40px 20px;
   display: grid;
   gap: 24px;
