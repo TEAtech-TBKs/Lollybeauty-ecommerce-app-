@@ -10,7 +10,6 @@ import Offer from "./Offer";
 import Testimonial from "./Testimonial";
 import ContactSupport from "./ContactSupport";
 import FAQs from "./FAQs";
-import WhyChooseUs from "./WhyChooseUs.jsx"
 
 const Landing = () => {
   return (
@@ -35,7 +34,7 @@ const Landing = () => {
         </section>
       </main>
       <About/>
-      <WhyChooseUs/>
+      {/* <WhyChooseUs/> */}
       <Testimonial/>
       <ContactSupport/>
       <FAQs/>
