@@ -1,6 +1,6 @@
 import React from 'react';
 import img1 from "../assets/images/cosmetics_smile_face.jpeg"
-import '../whyChooseUs.css';
+import '../WhyChooseUs.css';
 
 const WhyChooseUs = () => {
   return (

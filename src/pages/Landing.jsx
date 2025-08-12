@@ -7,10 +7,10 @@ import ProductCard from "../components/ProductCard";
 import "./Landing.css"; // ✅ Import the CSS
 import About from "./About";
 import Offer from "./Offer";
-import WhyChooseUs from "./whyChooseUs";
 import Testimonial from "./Testimonial";
 import ContactSupport from "./ContactSupport";
 import FAQs from "./FAQs";
+import WhyChooseUs from "./whyChooseUs";
 
 const Landing = () => {
   return (
