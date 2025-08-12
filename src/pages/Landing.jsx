@@ -10,7 +10,7 @@ import Offer from "./Offer";
 import Testimonial from "./Testimonial";
 import ContactSupport from "./ContactSupport";
 import FAQs from "./FAQs";
-import WhyChooseUs from "./whyChooseUs";
+import WhyChooseUs from "../pages/WhyChooseUs";
 
 const Landing = () => {
   return (
