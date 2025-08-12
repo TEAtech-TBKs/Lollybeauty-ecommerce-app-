@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { Link, useLocation, useNavigate } from "react-router-dom";
-
 import "./Dashboard.css";
+import { NavD } from "./NavD";
 
 const Dashboard = () => {
   const [sidebarOpen, setSidebarOpen] = useState(false);
@@ -23,28 +23,21 @@ useEffect(() => {
 }, [navigate]);
   
 
-  const toggleSidebar = () => {
-    setSidebarOpen(!sidebarOpen);
-  };
-
-  const isActive = (path) => location.pathname === path;
-
   
 
   return (
+   <div className="dashboard-container">
+    <NavD/>
     <div className="dashboard-body">
-          <marquee behavior="" direction="">lollyBeauty Skincaere and cosmetics welcomes you to our official website</marquee>
-        
-    
-      <main className="main-content">
-                <section class="layout">
-                  <div class="sidebar">1</div>
-                  <div class="body">2</div>
-                </section>
-      </main>
-      
+      <div className="text-heading">
+        <h1>Pamper your skin</h1>
+        <p className="text-body">with our abnesABNES<span className="no1">No.1</span> product</p>
+        <button>Shop Now</button>
+      </div>
+    </div>
     </div>
   );
 };
 
 export default Dashboard;
+        

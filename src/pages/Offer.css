@@ -2,18 +2,19 @@
 background: var(--secondary-color);
 padding: 2.5rem;
 justify-items: center;
+z-index: -3;
 }
 .offer-heading{
-    font-family: "cinzel decorative",serif;
-    font-size: 3rem;
-    font-weight: 600;
-    color: var(--primary-color);
+  font-family: "cinzel decorative",serif;
+  font-size: 3rem;
+  font-weight: 600;
+  color: var(--primary-color);
 }
 .img-container{
-display: flex;
-flex-direction: row;
-gap: 5rem;
-padding: 2.3rem;
+  display: flex;
+  flex-direction: row;
+  gap: 5rem;
+  padding: 2.3rem;
 }
 .offer-text {
   position: relative;

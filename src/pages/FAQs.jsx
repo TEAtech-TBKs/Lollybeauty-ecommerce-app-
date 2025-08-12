@@ -4,15 +4,15 @@ import './FAQs.css';
 const faqData = [
   {
     question: 'How effective are your beauty products?',
-    answer: 'Our products are formulated with high-quality ingredients to deliver visible and lasting results.'
+    answer: 'Our products are of high quality and a 100% authentic '
   },
   {
     question: 'How long does delivery take?',
-    answer: 'Delivery usually takes 2–5 business days depending on your location.'
+    answer: 'Depends on your location but we make sure products get to you as fast as possible '
   },
   {
-    question: 'Are the products suitable for all skin types?',
-    answer: 'Yes, our products are tested to be safe for various skin types. However, please check individual labels or consult with us for recommendations.'
+    question: 'Can i get a refund if i dont like the product?',
+    answer: "if product is not tampered with and still in its original packaging we can give you a refund "
   }
 ];
 

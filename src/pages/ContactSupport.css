@@ -1,17 +1,12 @@
-.contact-support {
-  padding: 4rem 2rem;
-  background-color: #fff0f5;
-  text-align: center;
+.contact-support{
+  color: #8b8388;
+  padding: 0 1rem;
+  border-left:1px solid #8b8388;
 }
-.contact-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: 2rem;
-  margin-top: 2rem;
-}
-.contact-box {
-  background-color: #fff;
-  padding: 1.5rem;
-  border-radius: 10px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-}
+/* h2{
+  font-family: 'Higuen';
+  src: url('Higuen.woff2') format('woff2'),
+       url('Higuen.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+} */

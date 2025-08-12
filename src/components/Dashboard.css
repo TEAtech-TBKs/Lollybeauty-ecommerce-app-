@@ -1,25 +1,37 @@
-.layout {
+
+.dashboard-container { 
+  /* border: 1px solid greenyellow; */
+  min-height: 100vh;
   width: 100%;
-
-  display: grid;
-  grid:
-    "sidebar body" 1fr
-    / auto 1fr;
-  gap: 1px;
-  border: 1px solid red;
-
-}
-
-.sidebar {
-   grid-area: sidebar; 
-  border: 1px solid blue;
-  width: 10vh;
-}
-.body { grid-area: body; 
-  border: 1px solid red;
-  /* width:70%; */
-  height: 100vh;
-  background:linear-gradient(rgba(128, 0, 96, 0.199),rgba(255, 192, 203, 0.719)),url("./images/honeyFace.jpeg")  no-repeat;
+  background:linear-gradient(to top,rgba(0, 0, 0, 0.39),#f0f0f0),url(../assets/images/facial_check.jpeg);
+  background-attachment: scroll;
   background-position:center;
   background-size: cover;
+  margin: 0;
+
+}
+.dashboard-body{
+  background: url("../assets/lollyb/1.png");
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  width: 100%;
+  padding: 5rem;
+}
+.text-heading{
+  width: 50%;
+}
+.text-heading h1{
+  font-family: "Nexila";
+  font-size: 5rem;
+  color: var(--bold-text-color);
+}
+.text-heading p{
+  font-family: "abnes";
+  font-size: 4rem;
+}
+.no1{
+  background-color: var(--bold-text-color);
+  color: var(--text-color);
+  padding: 0.7rem 0 0;
 }

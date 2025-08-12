@@ -7,13 +7,42 @@
   padding: 0;
   box-sizing: border-box;
 }
+@font-face {
+  font-family: 'Mergen';
+  src: url('./mergen-font/mergen.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Nexila';
+  src: 
+  /* url('./Nexila/nexila-italic.otf') format('opentype'), */
+       url('./Nexila/nexila-regular.ttf') format('truetype'),
+       url('./Nexila/nexila-regular.otf') format('opentype'),
+       url('./Nexila/nexila-regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+
+}
+@font-face {
+  font-family: 'abnes';
+  src: 
+       url('./abnes/abnes.ttf') format('ttf'),
+       url('./abnes/abnes.otf') format('otf'),
+}
+
+li{
+  list-style: none;
+  padding: 1rem;
+}
 :root {
   --primary-color: #80344b;
   --nv-background: #803434;
   --secondary-color:#eecae0;
   --tetiary-color: #5e00140e;
   --text-color: #ffeef9;
-  --bold-text-color: rgb(151, 2, 2);
+  --bold-text-color: #970202;
   --dark-text-color: rgb(39, 35, 35);
   --background-color: #fff2f2;
   --filter-color: pink;
@@ -40,4 +69,11 @@ a {
 
 button {
   cursor: pointer;
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  border: none;
+  padding: .8rem 1rem;
+  font-weight: 500;
+  border-radius: 5px;
+  font-size: 1rem;
 }

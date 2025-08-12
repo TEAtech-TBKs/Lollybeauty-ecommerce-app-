@@ -1,10 +1,17 @@
 /* src/components/Footer.css */
-
-.footer {
+.fb{
+  background-color: #15000c; 
+}
+.footer-body{
   background-color: #15000c;
-  padding: 40px 20px;
-  text-align: center;
+  display: flex;
+  padding: 3rem 2rem ;
+  justify-content: center;
+}
+.footer {
+  /* padding: 40px 20px; */
   color: #333;
+  width: 50%;
 }
 
 .footer__content {
@@ -31,6 +38,7 @@
   gap: 30px;
   margin-bottom: 20px;
   flex-wrap: wrap;
+  padding: 1rem;
 }
 
 .footer__links a {
@@ -43,8 +51,14 @@
 .footer__links a:hover {
   color: #d63384;
 }
-
+.line{
+  border: 1px solid rgba(128, 128, 128, 0.452);
+  width: 80%;
+  margin-left: 10%;
+}
 .footer__copyright {
   font-size: 0.875rem;
   color: #999;
+  text-align: center;
+  padding-bottom: 1rem;
 }

@@ -12,34 +12,27 @@
   background-size: cover;
   background-position: center;
   backface-visibility: visible;
-  animation: fadein 25s linear infinite;
+  animation: fadein 20s linear infinite;
   height: 100vh;
 }
 @keyframes fadein {
-  0%{
-    background: url("images/heroSec.jpeg"); 
-    background-size: cover;
-    background-position: center;
+  0% {
+    background: url("../assets/lollyb/1.png") center/cover no-repeat;
   }
-  25%{
-    background-size: cover;
-    background-position: center;
-    background: url("images/cosmetics_smile_face.jpeg"); 
+  20% {
+    background: url("../assets/lollyb/2.png") center/cover no-repeat;
   }
-  50%{
-    background: url("images/facial_check.jpeg"); 
-    background-size:cover;
-    background-position: center;
+  45% {
+    background: url("../assets/lollyb/3.png") center/cover no-repeat;
   }
-  100%{
-    background: url("images/cosmetics_smile_face.jpeg"); 
-    background-size: cover;
-    background-position: center;
+  60% {
+    background: url("../assets/lollyb/4.png") center/cover no-repeat;
   }
-  200%{
-    background: url("images/applying_serum.jpg"); 
-    background-size: cover;
-    background-position: center;
+  80% {
+    background: url("../assets/lollyb/5.png") center/cover no-repeat;
+  }
+  100% {
+    background: url("../assets/lollyb/1.png") center/cover no-repeat;
   }
 }
 
