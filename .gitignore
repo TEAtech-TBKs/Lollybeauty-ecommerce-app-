@@ -12,7 +12,7 @@ dist
 dist-ssr
 *.local
 #SECURITY
-.env
+.env1
 
 # Editor directories and files
 .vscode/*
